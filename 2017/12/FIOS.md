@@ -22,7 +22,7 @@
     * I/O parallelism
     * I/O anticipation for fairness
 
-# quora
+# quote
 
 ```
 While I/O anticipation was proposed as a performance-enhancing

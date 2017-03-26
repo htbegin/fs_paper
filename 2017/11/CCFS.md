@@ -54,7 +54,7 @@
 * improve correctness: order and weak atomicity
 * maintain and sometimes improve performance
 
-# quota
+# quote
 
 ```
 “Vulnerability”: Place in application source code that can lead to
