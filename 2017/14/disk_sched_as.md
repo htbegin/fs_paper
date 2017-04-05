@@ -69,3 +69,17 @@ leads to deceptive idleness, rendering the scheduler inca-
 pable of exploiting spatial and temporal locality among syn-
 chronous requests.
 ```
+
+```
+issue read requests that cannot be satisfied from memory.
+This general tendency of applications to issue concurrent,
+synchronous, non-sequential disk requests has been on the
+rise [19, 30]. These requests typically do not benefit from
+traditional filesystem prefetching, and yet possess enough lo-
+cality to be excellent candidates for seek reduction. This has
+driven the need for an alternative and more general approach
+to complement prefetching. Since anticipatory scheduling is
+based on a much weaker form of prediction, it is feasible in
+many situations where prefetching is difficult.
+```
+
